@@ -1,0 +1,20 @@
+{
+  "name": "problem5",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Minh Tran",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.1",
+    "express": "^4.21.2",
+    "mongoose": "^8.10.0",
+    "nodemon": "^3.1.9",
+    "typescript": "^5.7.3"
+  },
+  "scripts": {
+    "start": "node ./build/index.js",
+    "build": "tsc -p .",
+    "dev": "nodemon ./src/index.ts"
+  }
+}
