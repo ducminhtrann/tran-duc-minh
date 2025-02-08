@@ -30,6 +30,8 @@ By default, the app runs on `http://localhost:3000`.
 npm run dev
 ```
 
+Terminal will log `RUNNING ON PORT 3000` and `CONNECTED TO DB!!!!`
+
 ---
 
 ## 📖 **CRUD API Documentation**
